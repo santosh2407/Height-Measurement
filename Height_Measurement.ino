@@ -12,6 +12,7 @@ pinMode(echoPin, INPUT);
 Serial.begin(9600);
 lcd.begin(16, 2);
 }
+
 void loop() {
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
